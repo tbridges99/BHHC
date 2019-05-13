@@ -1,0 +1,24 @@
+{
+  "name": "bhhc",
+  "version": "1.0.0",
+  "description": "Berkshire Hathaway Github Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbridges99/BHHC.git"
+  },
+  "author": "Tyeler Bridges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbridges99/BHHC/issues"
+  },
+  "homepage": "https://github.com/tbridges99/BHHC#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7"
+  }
+}
