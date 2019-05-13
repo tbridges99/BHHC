@@ -11,6 +11,7 @@ export class ListComponent implements OnInit {
     constructor(private reasonsService: ReasonsService) { }
 
     ngOnInit() {
+        //Upon loading page, subscribe to observable to display any data changes
         this.reasonsService.getReasons().subscribe(Reason => this.reasons = Reason);
     }
 }
